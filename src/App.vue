@@ -1,37 +1,14 @@
 <script setup>
-
+import NavBar from '@/components/nav/NavBar.vue'
+import FooterView from '@/components/footer/FooterView.vue'
+import IntroView from '@/components/introduction/IntroView.vue'
 </script>
 
 <template>
+  <NavBar />
+  <IntroView />
   <div>
-    <h2>Hello World!</h2>
+    <h2>Self Taught I think</h2>
   </div>
-
-  <footer>
-    Powered by:
-    <a
-      href="https://vuejs.org/"
-    >
-      <img
-        alt="Vue logo"
-        class="logo"
-        src="@/assets/logo.svg"
-        width="25"
-        height="25"
-      >
-    </a>
-  </footer>
+  <FooterView />
 </template>
-
-<style scoped>
-  footer {
-    border-top: 1px solid black;
-    padding-top: 1rem;
-  display: flex;
-  justify-content: center;
-  }
-  footer img {
-    margin-left: 5px;
-  }
-
-</style>
