@@ -6,14 +6,6 @@
       <h2>Self-taught developer with a passion for Computer Science</h2>
       <h2>About me - ~text that re types constantly like hobbies and interests~</h2>
     </div>
-    <div class="image">
-      <img
-        src="@/assets/me.jpg"
-        alt="Zachary Burtcher"
-        width="175"
-        height="230"
-      >
-    </div>
   </div>
 </template>
 
@@ -31,15 +23,15 @@
       color: #eee;
     }
   }
-.image {
-  width: 175px;
-  height: 175px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: transparent;
-  img {
-    filter: brightness(90%);
-    bottom: 40px;
-  }
-}
+// .image {
+//   width: 175px;
+//   height: 175px;
+//   border-radius: 50%;
+//   overflow: hidden;
+//   background-color: transparent;
+//   img {
+//     filter: brightness(90%);
+//     bottom: 40px;
+//   }
+// }
 </style>
