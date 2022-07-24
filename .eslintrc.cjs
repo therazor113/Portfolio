@@ -6,5 +6,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:vue/vue3-recommended',
     'standard'
-  ]
+  ],
+  rules: {
+    'vue/require-prop-types': 'off'
+  }
 }
