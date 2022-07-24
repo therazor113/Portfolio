@@ -9,7 +9,7 @@ export default {
   },
   methods: {
     onSubmit (e) {
-      e.preventDefault()
+      // e.preventDefault()
       console.log(`Name: ${this.name} Email: ${this.email} Message: ${this.message}`)
     },
     handleName (e) {
@@ -36,6 +36,7 @@ export default {
       name="EmailForm"
       @submit="onSubmit"
     >
+      <!-- @submit.prevent="onSubmit" might work for preventing default reload -->
       <div class="formHeader">
         <input
           required
