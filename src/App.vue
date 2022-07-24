@@ -10,9 +10,25 @@ import ContactView from '@/components/contact/ContactView.vue'
 <template>
   <div class="container">
     <NavBar />
+    <div
+      id="home"
+      class="pro"
+    />
     <IntroView />
+    <div
+      id="projects"
+      class="pro"
+    />
     <ProjectView />
+    <div
+      id="skills"
+      class="pro"
+    />
     <SkillsView />
+    <div
+      id="contact"
+      class="pro"
+    />
     <ContactView />
     <FooterView />
   </div>
@@ -23,5 +39,11 @@ import ContactView from '@/components/contact/ContactView.vue'
     display: flex;
     flex-direction: column;
     gap: 1rem;
+  }
+  .pro {
+    width: 100%;
+    bottom: 60px;
+    text-align: center;
+    z-index: 100000;
   }
 </style>
