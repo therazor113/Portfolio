@@ -1,28 +1,23 @@
 <script>
-export default {
-  data () {
-    return {
-      count: 0
-    }
-  },
-  methods: {
-    handleHome () {
-      window.scrollTo(0, 0)
-    }
-  }
-}
+
 </script>
 
 <template>
   <nav>
     <h1>&lt;/&gt;</h1>
     <div>
-      <h2 @click="handleHome">
-        Home
-      </h2>
-      <h2>Projects</h2>
-      <h2>Skills</h2>
-      <h2>Contact</h2>
+      <ScrollLink href="#home">
+        <h2>Home</h2>
+      </ScrollLink>
+      <ScrollLink href="#projects">
+        <h2>Projects</h2>
+      </ScrollLink>
+      <ScrollLink href="#skills">
+        <h2>Skills</h2>
+      </ScrollLink>
+      <ScrollLink href="#contact">
+        <h2>Contact</h2>
+      </ScrollLink>
     </div>
   </nav>
 </template>
@@ -44,6 +39,10 @@ export default {
       display: flex;
       gap: 3rem;
       margin-right: 2rem;
+      a {
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+        }
       h2 {
         transition: color 0.2s, background-color 0.2s;
         border-radius: 10px;
