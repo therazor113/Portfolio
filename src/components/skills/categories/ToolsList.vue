@@ -68,13 +68,11 @@
       width: 500px;
       height: 80px;
       img {
-        transition: width 0.2s, height 0.2s;
+        transition: transform 0.2s, filter 0.2s;
         margin: 5px;
         &:hover {
-          transition: width 0.2s, height 0.2s, filter 0.2s;
           filter: drop-shadow(5px 5px 5px black);
-          width: 75px;
-          height: 75px;
+          transform: scale(1.2);
         }
       }
     }
