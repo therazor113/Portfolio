@@ -12,35 +12,35 @@ import ContactView from '@/components/contact/ContactView.vue'
     <NavBar />
     <div
       id="home"
-      class="pro"
+      class="id"
     />
     <IntroView />
     <div
       id="projects"
-      class="pro"
+      class="id"
     />
     <ProjectView />
     <div
       id="skills"
-      class="pro"
+      class="id"
     />
     <SkillsView />
     <div
       id="contact"
-      class="pro"
+      class="id"
     />
     <ContactView />
     <FooterView />
   </div>
 </template>
 
-<style lang='scss'>
+<style lang='scss' scoped>
   .container {
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
-  .pro {
+  .id {
     width: 100%;
     bottom: 60px;
     text-align: center;
