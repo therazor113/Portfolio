@@ -60,19 +60,15 @@
       width: 500px;
       height: 80px;
       img {
-        transition: width 0.2s, height 0.2s;
+        transition: transform 0.2s, filter 0.2s;
         margin: 5px;
         &:hover:not(.verc) {
-          transition: width 0.2s, height 0.2s, filter 0.2s;
           filter: drop-shadow(5px 5px 5px black);
-          width: 75px;
-          height: 75px;
+          transform: scale(1.2);
         }
         &:hover.verc {
-          transition: width 0.2s, height 0.2s;
-          filter: drop-shadow(6px 6px 6px rgb(30, 30, 30));
-          width: 75px;
-          height: 75px;
+          filter: drop-shadow(4px 4px 4px rgb(35, 35, 35));
+          transform: scale(1.2);
         }
       }
     }
