@@ -75,7 +75,7 @@ export default {
 <style lang="scss" scoped>
   .container {
     width: 100%;
-    height: 40vh;
+    height: 475px;
     h1 {
       text-align: center;
       text-decoration: underline;
@@ -120,13 +120,13 @@ export default {
     color: #eee;
   }
   .submitButton {
-    transition: background 0.3s;
+    transition: background-color 0.3s;
     width: 75px;
     height: 30px;
     margin: 0 auto;
     &:hover {
-      transition: background 0.3s;
-      background: rgb(40, 40, 40);
+      transition: background-color 0.3s;
+      background-color: rgb(40, 40, 40);
       cursor: pointer;
     }
   }

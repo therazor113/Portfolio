@@ -31,7 +31,7 @@
   </footer>
 </template>
 
-<style lang='scss'>
+<style lang='scss' scoped>
   footer {
     border-top: 1px solid black;
     padding-top: 1rem;
