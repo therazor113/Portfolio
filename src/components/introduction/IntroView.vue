@@ -5,6 +5,8 @@
       <h2>Software Engineer</h2>
       <h2>Self-taught developer with a passion for Computer Science</h2>
       <h2>About me - ~text that re types constantly like hobbies and interests~</h2>
+      <h2>~Looking to  continue expanding my knowledge in computer science~</h2>
+      <h2>~well tested - maintainable - user interfaces - user experience - new technologies~</h2>
     </div>
   </div>
 </template>
@@ -13,7 +15,7 @@
   .container {
     margin-top: 3rem;
     width: 100%;
-    height: 93vh;
+    height: 1075px;
     border: 2px solid white;
     display: flex;
     flex-direction: column;
