@@ -1,25 +1,15 @@
 <script>
 export default {
-  setup () {
+  data () {
     return {
-      name: '',
-      email: '',
-      message: ''
+      nameText: '',
+      emailText: '',
+      messageText: ''
     }
   },
   methods: {
-    onSubmit (e) {
-      // e.preventDefault()
-      console.log(`Name: ${this.name} Email: ${this.email} Message: ${this.message}`)
-    },
-    handleName (e) {
-      this.name = e.target.value
-    },
-    handleEmail (e) {
-      this.email = e.target.value
-    },
-    handleMessage (e) {
-      this.message = e.target.value
+    onSubmit () {
+      console.log(`Name: ${this.nameText} Email: ${this.emailText} Message: ${this.messageText}`)
     }
   }
 }
@@ -34,35 +24,32 @@ export default {
     </div>
     <form
       name="EmailForm"
-      @submit="onSubmit"
+      @submit.prevent="onSubmit"
     >
       <!-- @submit.prevent="onSubmit" might work for preventing default reload -->
       <div class="formHeader">
         <input
+          v-model="nameText"
           required
           class="name"
-          name="name"
           type="text"
           placeholder="Enter Name"
-          @change="handleName"
         >
         <input
+          v-model="emailText"
           required
           class="email"
-          name="email"
           type="text"
           placeholder="Enter Email"
-          @change="handleEmail"
         >
       </div>
       <textarea
+        v-model="messageText"
         required
         class="message"
-        name="message"
         placeholder="Enter Message"
         cols="30"
         rows="10"
-        @change="handleMessage"
       />
       <input
         class="submitButton"
