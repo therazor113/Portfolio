@@ -22,7 +22,8 @@ export default {
   },
   methods: {
     Reset () {
-      document.querySelectorAll('td').forEach(el => {
+      const container = document.querySelector('.ticContainer')
+      container.querySelectorAll(':scope td').forEach(el => {
         el.textContent = ''
         el.className = 'on'
       })
@@ -34,12 +35,15 @@ export default {
     click (e) {
       const cellId = parseInt(e.target.id) - 1
       if (this.buttonShow || e.target.textContent) return
+
       this.gameState[cellId] = this.player
       e.target.textContent = this.gameState[cellId]
       this.player = this.player === 'X' ? 'O' : 'X'
       e.target.className = 'off'
       this.message = this.player
-      document.querySelectorAll('td').forEach((el) => {
+
+      const container = document.querySelector('.ticContainer')
+      container.querySelectorAll(':scope td').forEach((el) => {
         for (let i = 0; i <= 7; i++) {
           const winCondition = this.winningConditions[i]
           const a = this.gameState[winCondition[0]]
@@ -54,6 +58,7 @@ export default {
           }
         }
       })
+
       if (this.roundWon) {
         this.message = `${this.player === 'X' ? 'O' : 'X'} Wins!`
         this.button = 'Reset'
@@ -71,7 +76,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="ticContainer">
     <h1>Tic Tac Toe</h1>
     <table>
       <tr>
@@ -113,7 +118,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-    div {
+    .ticContainer {
       display: flex;
       flex-direction: column;
       user-select: none;
