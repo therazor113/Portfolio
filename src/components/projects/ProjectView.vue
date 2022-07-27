@@ -1,6 +1,7 @@
 <script setup>
 import ForkliftProject from './items/ForkliftProject.vue'
 import TicTacToe from './items/games/TicTacToe.vue'
+import SnakeGame from './items/games/SnakeGame.vue'
 </script>
 
 <template>
@@ -9,10 +10,11 @@ import TicTacToe from './items/games/TicTacToe.vue'
     <ForkliftProject />
     <div class="gamesContainer">
       <div>Lorem Ipsum</div>
+
       <div class="games">
         <div class="test1" />
         <TicTacToe class="tictactoe" />
-        <div class="test2" />
+        <SnakeGame class="snakeGame" />
       </div>
     </div>
   </div>
@@ -34,18 +36,18 @@ import TicTacToe from './items/games/TicTacToe.vue'
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
-  }
-  .games {
-    height: 300px;
-    width: 550px;
     &:hover {
       .test1 {
         left: 50px;
       }
-      .test2 {
+      .snakeGame {
         left: 300px;
       }
     }
+  }
+  .games {
+    height: 300px;
+    width: 550px;
   }
   .test1 {
     transition: left 0.4s;
@@ -57,14 +59,11 @@ import TicTacToe from './items/games/TicTacToe.vue'
     background: blue;
     z-index: 20;
   }
-  .test2 {
+  .snakeGame {
     transition: left 0.4s;
     position: absolute;
     top: 40px;
     left: 250px;
-    width: 200px;
-    height: 200px;
-    background: black;
     z-index: 10;
   }
   .tictactoe {
