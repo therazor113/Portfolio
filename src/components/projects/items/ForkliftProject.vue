@@ -70,10 +70,10 @@
         }
       }
       img {
-      transition: transform 0.2s, left 0.5s;
-      position: absolute;
-      outline: 2px solid black;
-      border-radius: 5px;
+        transition: transform 0.2s, left 0.5s;
+        position: absolute;
+        outline: 2px solid black;
+        border-radius: 5px;
       &:hover {
         transform: scale(1.2);
         z-index: 100;
