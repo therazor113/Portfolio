@@ -44,6 +44,5 @@ import ContactView from '@/components/contact/ContactView.vue'
     width: 100%;
     bottom: 60px;
     text-align: center;
-    z-index: 100000;
   }
 </style>
