@@ -19,11 +19,12 @@ import Other from './categories/OtherList.vue'
 
 <style lang="scss" scoped>
   .container {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     display: flex;
     flex-direction: column;
-    border: 2px solid white;
     width: 100%;
-    height: 50vh;
+    height: 500px;
     h1 {
       text-align: center;
       text-decoration: underline;
