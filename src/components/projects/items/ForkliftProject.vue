@@ -1,6 +1,11 @@
 <template>
+  <div>
+    <h2 class="title">
+      Forklift App
+    </h2>
+  </div>
   <div class="forkContainer">
-    <div class="forkPics">
+    <div>
       <img
         class="badge"
         alt="Forklift App Badge"
@@ -30,6 +35,11 @@
 </template>
 
 <style lang="scss" scoped>
+  .title {
+      color: #eee;
+      text-decoration: underline;
+      margin-bottom: 1rem;
+    }
   .forkText {
     float: right;
     width: 45%;
@@ -50,14 +60,8 @@
     left: 115px;
     z-index: 10;
   }
-  .forkPics {
-    z-index: 50;
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 500px;
+  .forkContainer {
     transition: left 0.3s;
-    left: 0;
       &:hover {
         .badge {
           left: 35px;
