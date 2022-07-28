@@ -9,11 +9,11 @@
       <ScrollLink href="#home">
         <h2>Home</h2>
       </ScrollLink>
+      <ScrollLink href="#about">
+        <h2>About</h2>
+      </ScrollLink>
       <ScrollLink href="#projects">
         <h2>Projects</h2>
-      </ScrollLink>
-      <ScrollLink href="#skills">
-        <h2>Skills</h2>
       </ScrollLink>
       <ScrollLink href="#contact">
         <h2>Contact</h2>
