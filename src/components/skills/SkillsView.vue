@@ -6,11 +6,13 @@ import Other from './categories/OtherList.vue'
 </script>
 
 <template>
-  <div class="container">
-    <h1>Skills</h1>
-    <div class="skills">
+  <div class="skills">
+    <h1>My Skills</h1>
+    <div>
       <Langauges />
       <FrameWorks />
+    </div>
+    <div>
       <Tools />
       <Other />
     </div>
@@ -18,24 +20,22 @@ import Other from './categories/OtherList.vue'
 </template>
 
 <style lang="scss" scoped>
-  .container {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+  h1 {
+      color: #eee;
+      text-decoration: underline;
+      margin-bottom: 1rem;
+    }
+  .skills {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 500px;
-    h1 {
-      text-align: center;
-      text-decoration: underline;
-      margin-bottom: 2rem;
+    height: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    row-gap: 4rem;
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
-  }
-  .skills {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
   }
 </style>
