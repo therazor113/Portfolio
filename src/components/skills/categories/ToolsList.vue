@@ -1,6 +1,8 @@
 <template>
   <div class="tools">
-    <h2>Tools</h2>
+    <h2 class="title">
+      Tools
+    </h2>
     <div class="icons">
       <a href="https://www.sqlite.org/index.html">
         <img
@@ -10,6 +12,7 @@
           width="65"
           height="65"
         >
+        <h2>SQLite</h2>
       </a>
       <a href="https://eslint.org/">
         <img
@@ -19,6 +22,7 @@
           width="65"
           height="65"
         >
+        <h2>ESLint</h2>
       </a>
       <a href="https://www.npmjs.com/">
         <img
@@ -28,6 +32,7 @@
           width="65"
           height="65"
         >
+        <h2>NPM</h2>
       </a>
       <a href="https://git-scm.com/">
         <img
@@ -37,6 +42,7 @@
           width="65"
           height="65"
         >
+        <h2>Git</h2>
       </a>
       <a href="https://github.com/">
         <img
@@ -46,34 +52,51 @@
           width="65"
           height="65"
         >
+        <h2>GitHub</h2>
       </a>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-    .tools {
-      display: flex;
-      flex-direction: column;
-      width: fit-content;
-      text-align: center;
+  .tools {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+    .title {
+      margin-bottom: 10px;
+      text-decoration: underline;
+    }
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height: 80px;
+    img {
+      transition: transform 0.2s, filter 0.2s;
+      margin: 5px;
+      &:hover {
+        filter: drop-shadow(5px 5px 5px black);
+        transform: scale(1.2);
+      }
+    }
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    h2 {
+      display: none;
+    }
+    &:hover {
       h2 {
-        margin-bottom: 10px;
-        text-decoration: underline;
+        position: absolute;
+        top: 115%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
       }
     }
-    .icons {
-      display: flex;
-      justify-content: center;
-      width: 500px;
-      height: 80px;
-      img {
-        transition: transform 0.2s, filter 0.2s;
-        margin: 5px;
-        &:hover {
-          filter: drop-shadow(5px 5px 5px black);
-          transform: scale(1.2);
-        }
-      }
-    }
+  }
 </style>
