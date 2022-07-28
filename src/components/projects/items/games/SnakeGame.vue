@@ -134,7 +134,10 @@ export default {
     width: 200px;
     height: 200px;
     button {
-      margin-top: 10px;
+      margin-top: 7px;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
   .row {
