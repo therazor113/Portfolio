@@ -12,7 +12,6 @@ import SnakeGame from './items/games/SnakeGame.vue'
       <div>Lorem Ipsum</div>
 
       <div class="games">
-        <div class="test1" />
         <TicTacToe class="tictactoe" />
         <SnakeGame class="snakeGame" />
       </div>
@@ -24,7 +23,6 @@ import SnakeGame from './items/games/SnakeGame.vue'
   .container {
     width: 100%;
     height: 1500px;
-    border: 2px solid white;
     display: flex;
     flex-direction: column;
     h2 {
@@ -37,9 +35,6 @@ import SnakeGame from './items/games/SnakeGame.vue'
     display: flex;
     justify-content: space-between;
     &:hover {
-      .test1 {
-        left: 50px;
-      }
       .snakeGame {
         left: 300px;
       }
@@ -49,27 +44,17 @@ import SnakeGame from './items/games/SnakeGame.vue'
     height: 300px;
     width: 550px;
   }
-  .test1 {
-    transition: left 0.4s;
+  .tictactoe {
     position: absolute;
-    top: 40px;
-    left: 100px;
-    width: 200px;
-    height: 200px;
-    background: blue;
-    z-index: 20;
+    top: 17px;
+    left: 190px;
+    z-index: 30;
   }
   .snakeGame {
     transition: left 0.4s;
     position: absolute;
-    top: 40px;
+    top: 15px;
     left: 250px;
     z-index: 10;
-  }
-  .tictactoe {
-    position: absolute;
-    top: 0px;
-    left: 190px;
-    z-index: 30;
   }
 </style>
