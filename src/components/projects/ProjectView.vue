@@ -6,7 +6,9 @@ import SnakeGame from './items/games/SnakeGame.vue'
 
 <template>
   <div class="container">
-    <h2>Projects</h2>
+    <h1 class="title">
+      Projects
+    </h1>
     <ForkliftProject />
     <div class="gamesContainer">
       <div>Lorem Ipsum</div>
@@ -25,9 +27,11 @@ import SnakeGame from './items/games/SnakeGame.vue'
     height: 1500px;
     display: flex;
     flex-direction: column;
-    h2 {
+    .title {
+      color: #fff;
+      font-size: 40px;
       text-align: center;
-      text-decoration: underline;
+      margin-bottom: 1rem;
     }
   }
   .gamesContainer {
