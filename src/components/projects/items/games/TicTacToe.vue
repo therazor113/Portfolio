@@ -77,7 +77,6 @@ export default {
 
 <template>
   <div class="ticContainer">
-    <h1>Tic Tac Toe</h1>
     <table>
       <tr>
         <td
@@ -124,8 +123,6 @@ export default {
       user-select: none;
     }
     button {
-      width: 50px;
-      height: 22px;
       margin: auto;
       margin-top: 10px;
       &:hover {
@@ -136,17 +133,18 @@ export default {
       margin: 10px;
       text-align: center;
       color: #F5F5F5;
+      font-size: 2.6rem;
       font-family: Arial, sans-serif;
     }
     table {
       background-color: gray;
       margin: auto;
       td {
-        width: 50px;
-        height: 50px;
+        width: 62px;
+        height: 62px;
         text-align: center;
         box-shadow: 0 0 0 1px #333333;
-        font-size: 200%;
+        font-size: 2.6rem;
         font-family: Arial, sans-serif;
       }
       .on:hover {
