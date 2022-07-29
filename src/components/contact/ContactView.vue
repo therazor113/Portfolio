@@ -16,57 +16,67 @@ export default {
 </script>
 
 <template>
-  <div class="container">
-    <h1>Contact</h1>
-    <div class="info">
-      <h2>LinkedIn</h2>
-      <h2>Email</h2>
-    </div>
-    <form
-      name="EmailForm"
-      @submit.prevent="onSubmit"
-    >
-      <!-- @submit.prevent="onSubmit" might work for preventing default reload -->
-      <div class="formHeader">
-        <input
-          v-model="nameText"
-          required
-          class="name"
-          type="text"
-          placeholder="Enter Name"
-        >
-        <input
-          v-model="emailText"
-          required
-          class="email"
-          type="text"
-          placeholder="Enter Email"
-        >
-      </div>
-      <textarea
-        v-model="messageText"
-        required
-        class="message"
-        placeholder="Enter Message"
-        cols="30"
-        rows="10"
-      />
-      <input
-        class="submitButton"
-        type="submit"
+  <h1 class="title">
+    Contact
+  </h1>
+  <div class="contactContainer">
+    <div>
+      <h2>Send an email:</h2>
+      <form
+        name="EmailForm"
+        @submit.prevent="onSubmit"
       >
-    </form>
+        <div class="formHeader">
+          <input
+            v-model="nameText"
+            required
+            class="name"
+            type="text"
+            placeholder="Enter Name"
+          >
+          <input
+            v-model="emailText"
+            required
+            class="email"
+            type="text"
+            placeholder="Enter Email"
+          >
+        </div>
+        <textarea
+          v-model="messageText"
+          required
+          class="message"
+          placeholder="Enter Message"
+          cols="30"
+          rows="10"
+        />
+        <input
+          class="submitButton"
+          type="submit"
+        >
+      </form>
+    </div>
+    <div class="info">
+      <h2>LinkedIn:</h2>
+      <h2>Email:</h2>
+      <h2>GitHub:</h2>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-  .container {
+  .title {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
     width: 100%;
-    height: 475px;
-    h1 {
-      text-align: center;
-      text-decoration: underline;
-    }
+    height: 400px;
     input {
       padding: 5px;
       background: black;
@@ -79,12 +89,11 @@ export default {
       display: flex;
       flex-direction: column;
       gap: 0.7rem;
-      margin: 0 auto;
     }
   }
   .info {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     margin-left: 3rem;
     margin-right: 3rem;
   }
