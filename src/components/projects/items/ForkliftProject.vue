@@ -1,11 +1,6 @@
 <template>
-  <div>
-    <h2 class="title">
-      Forklift App
-    </h2>
-  </div>
   <div class="forkContainer">
-    <div>
+    <div class="pics">
       <img
         class="badge"
         alt="Forklift App Badge"
@@ -29,21 +24,87 @@
       >
     </div>
     <div class="forkText">
-      <p>Lorem Ipsum</p>
+      <h2 class="title">
+        Forklift-Next
+      </h2>
+      <br>
+      <p>
+        Forklift-Next allows the user to edit and manage freight data such as location, dock position, trailer destination,
+        and various other freight related data using dynamic Api’s to retrieve and update information from the provided database.
+      </p>
+      <br>
+      <h2 class="title">
+        Technologies
+      </h2>
+      <div>
+        <a href="https://reactjs.org/">
+          <img
+            title="React"
+            alt="React logo"
+            src="@/assets/React-icon.svg"
+            width="45"
+            height="45"
+          >
+        </a>
+        <a href="https://nextjs.org/">
+          <img
+            title="Nextjs"
+            alt="Nextjs logo"
+            src="@/assets/Nextjs-icon.svg"
+            width="45"
+            height="45"
+          >
+        </a>
+        <a href="https://nodejs.org/en/">
+          <img
+            title="Nodejs"
+            alt="Nodejs logo"
+            src="@/assets/Nodejs-icon.svg"
+            width="45"
+            height="45"
+          >
+        </a>
+        <a href="https://sass-lang.com/">
+          <img
+            title="Sass"
+            alt="Sass logo"
+            src="@/assets/Sass-icon.svg"
+            width="45"
+            height="45"
+          >
+        </a>
+        <div>
+          <h2 class="title">
+            Links
+          </h2>
+          <div>
+            <a href="https://github.com/therazor113/Forklift-Next">
+              <img
+                title="GitHub"
+                alt="GitHub logo"
+                src="@/assets/GitHub-icon.svg"
+                width="45"
+                height="45"
+              >
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
   .title {
-      color: #eee;
-      text-decoration: underline;
-      margin-bottom: 1rem;
-    }
+    font-weight: 500;
+    text-decoration: underline;
+  }
   .forkText {
-    float: right;
-    width: 45%;
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
     height: 500px;
+    justify-content: center;
   }
   .badge {
     top: 35px;
@@ -60,8 +121,18 @@
     left: 115px;
     z-index: 10;
   }
+  img {
+    margin-right: 0.6rem;
+    margin-top: 1rem;
+    transition: transform 0.2s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
   .forkContainer {
-    transition: left 0.3s;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
       &:hover {
         .badge {
           left: 35px;
@@ -73,14 +144,18 @@
           left: 215px;
         }
       }
+    .pics {
+      width: 500px;
+      height: 400px;
       img {
         transition: transform 0.2s, left 0.5s;
         position: absolute;
         outline: 2px solid black;
         border-radius: 5px;
-      &:hover {
-        transform: scale(1.2);
-        z-index: 100;
+        &:hover {
+          transform: scale(1.2);
+          z-index: 100;
+        }
       }
     }
   }
