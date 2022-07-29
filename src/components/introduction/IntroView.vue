@@ -58,7 +58,6 @@ export default {
         href="https://www.linkedin.com/in/zachary-burtcher-473634209/"
       >
         <svg
-
           xmlns="http://www.w3.org/2000/svg"
           width="35"
           height="35"
@@ -156,15 +155,4 @@ export default {
       cursor: pointer;
     }
   }
-// .image {
-//   width: 175px;
-//   height: 175px;
-//   border-radius: 50%;
-//   overflow: hidden;
-//   background-color: transparent;
-//   img {
-//     filter: brightness(90%);
-//     bottom: 40px;
-//   }
-// }
 </style>
