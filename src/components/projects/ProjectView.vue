@@ -5,28 +5,30 @@ import SnakeGame from './items/games/SnakeGame.vue'
 </script>
 
 <template>
-  <div class="container">
-    <h1 class="title">
-      Projects
-    </h1>
-    <ForkliftProject />
-    <div class="gamesContainer">
+  <div class="ProjectsContainer">
+    <div>
+      <h1 class="title">
+        Projects
+      </h1>
+      <ForkliftProject />
+    </div>
+    <div>
       <div>Lorem Ipsum</div>
-
-      <div class="games">
-        <TicTacToe class="tictactoe" />
-        <SnakeGame class="snakeGame" />
-      </div>
+    </div>
+    <div class="games">
+      <TicTacToe />
+      <SnakeGame />
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-  .container {
+  .ProjectsContainer {
     width: 100%;
     height: 1500px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     .title {
       color: #fff;
       font-size: 40px;
@@ -34,31 +36,8 @@ import SnakeGame from './items/games/SnakeGame.vue'
       margin-bottom: 1rem;
     }
   }
-  .gamesContainer {
-    margin-top: 5rem;
-    display: flex;
-    justify-content: space-between;
-    &:hover {
-      .snakeGame {
-        left: 300px;
-      }
-    }
-  }
   .games {
-    height: 300px;
-    width: 550px;
-  }
-  .tictactoe {
-    position: absolute;
-    top: 17px;
-    left: 190px;
-    z-index: 30;
-  }
-  .snakeGame {
-    transition: left 0.4s;
-    position: absolute;
-    top: 15px;
-    left: 250px;
-    z-index: 10;
+    display: flex;
+    justify-content: space-around;
   }
 </style>
