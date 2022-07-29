@@ -23,6 +23,7 @@ import FooterView from '@/components/footer/FooterView.vue'
     <div class="aboutMe">
       <AboutView />
       <SkillsView />
+      <div />
     </div>
     <div
       id="projects"
