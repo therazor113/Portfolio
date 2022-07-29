@@ -4,7 +4,9 @@
 
 <template>
   <nav>
-    <h1>&lt;/&gt;</h1>
+    <a href="">
+      <h1>&lt;/&gt;</h1>
+    </a>
     <div>
       <ScrollLink href="#home">
         <h2>Home</h2>
@@ -23,6 +25,10 @@
 </template>
 
 <style lang='scss' scoped>
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
   nav {
     top: 0;
     left: 0;
@@ -39,10 +45,6 @@
       display: flex;
       gap: 3rem;
       margin-right: 2rem;
-      a {
-        color: inherit; /* blue colors for links too */
-        text-decoration: inherit; /* no underline */
-        }
       h2 {
         transition: color 0.2s, background-color 0.2s;
         border-radius: 10px;
