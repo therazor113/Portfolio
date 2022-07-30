@@ -74,8 +74,9 @@ export default {
   .contactContainer {
     display: flex;
     justify-content: space-between;
-    margin-left: 3rem;
-    width: 100%;
+    flex-wrap: wrap;
+    margin: 2rem;
+    width: 95%;
     height: 400px;
     input {
       padding: 5px;
