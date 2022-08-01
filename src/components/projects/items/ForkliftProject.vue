@@ -37,7 +37,10 @@
         Technologies
       </h2>
       <div>
-        <a href="https://reactjs.org/">
+        <a
+          target="_blank"
+          href="https://reactjs.org/"
+        >
           <img
             title="React"
             alt="React logo"
@@ -46,7 +49,10 @@
             height="45"
           >
         </a>
-        <a href="https://nextjs.org/">
+        <a
+          target="_blank"
+          href="https://nextjs.org/"
+        >
           <img
             title="Nextjs"
             alt="Nextjs logo"
@@ -55,7 +61,10 @@
             height="45"
           >
         </a>
-        <a href="https://nodejs.org/en/">
+        <a
+          target="_blank"
+          href="https://nodejs.org/en/"
+        >
           <img
             title="Nodejs"
             alt="Nodejs logo"
@@ -64,7 +73,10 @@
             height="45"
           >
         </a>
-        <a href="https://sass-lang.com/">
+        <a
+          target="_blank"
+          href="https://sass-lang.com/"
+        >
           <img
             title="Sass"
             alt="Sass logo"
@@ -78,7 +90,10 @@
             Links
           </h2>
           <div>
-            <a href="https://github.com/therazor113/Forklift-Next">
+            <a
+              target="_blank"
+              href="https://github.com/therazor113/Forklift-Next"
+            >
               <img
                 title="GitHub"
                 alt="GitHub logo"

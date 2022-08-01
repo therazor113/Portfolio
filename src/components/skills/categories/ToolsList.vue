@@ -4,7 +4,10 @@
       Tools
     </h2>
     <div class="icons">
-      <a href="https://www.sqlite.org/index.html">
+      <a
+        target="_blank"
+        href="https://www.sqlite.org/index.html"
+      >
         <img
           title="SQLite"
           alt="Sqlite logo"
@@ -14,7 +17,10 @@
         >
         <h2>SQLite</h2>
       </a>
-      <a href="https://eslint.org/">
+      <a
+        target="_blank"
+        href="https://eslint.org/"
+      >
         <img
           title="ESLint"
           alt="ESLint logo"
@@ -24,7 +30,10 @@
         >
         <h2>ESLint</h2>
       </a>
-      <a href="https://www.npmjs.com/">
+      <a
+        target="_blank"
+        href="https://www.npmjs.com/"
+      >
         <img
           title="NPM"
           alt="NPM logo"
@@ -34,7 +43,10 @@
         >
         <h2>NPM</h2>
       </a>
-      <a href="https://git-scm.com/">
+      <a
+        target="_blank"
+        href="https://git-scm.com/"
+      >
         <img
           title="GIT"
           alt="git logo"
@@ -44,7 +56,10 @@
         >
         <h2>Git</h2>
       </a>
-      <a href="https://github.com/">
+      <a
+        target="_blank"
+        href="https://github.com/"
+      >
         <img
           title="GitHub"
           alt="GitHub logo"

@@ -3,7 +3,10 @@
     <p>Designed and developed by Zachary Burtcher</p>
     <div>
       <p>Tools Used:</p>
-      <a href="https://vuejs.org/">
+      <a
+        target="_blank"
+        href="https://vuejs.org/"
+      >
         <img
           alt="Vue logo"
           src="@/assets/Vue-icon.svg"
@@ -11,7 +14,10 @@
           height="25"
         >
       </a>
-      <a href="https://vitejs.dev/">
+      <a
+        target="_blank"
+        href="https://vitejs.dev/"
+      >
         <img
           alt="Vite logo"
           src="@/assets/Vite-icon.svg"
@@ -19,7 +25,10 @@
           height="25"
         >
       </a>
-      <a href="https://sass-lang.com/">
+      <a
+        target="_blank"
+        href="https://sass-lang.com/"
+      >
         <img
           alt="Sass logo"
           src="@/assets/Sass-icon.svg"

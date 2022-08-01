@@ -56,6 +56,7 @@ export default {
       <a
         title="Linkedin"
         href="https://www.linkedin.com/in/zachary-burtcher-473634209/"
+        target="_blank"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -70,6 +71,7 @@ export default {
       <a
         title="Github"
         href="https://github.com/therazor113"
+        target="_blank"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

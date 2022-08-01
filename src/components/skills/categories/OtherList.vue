@@ -4,7 +4,10 @@
       Other
     </h2>
     <div class="icons">
-      <a href="https://vercel.com/">
+      <a
+        target="_blank"
+        href="https://vercel.com/"
+      >
         <img
           class="verc"
           title="Vercel"
@@ -15,7 +18,10 @@
         >
         <h2>Vercel</h2>
       </a>
-      <a href="https://vitejs.dev/">
+      <a
+        target="_blank"
+        href="https://vitejs.dev/"
+      >
         <img
           title="Vite"
           alt="Vite logo"
@@ -25,7 +31,10 @@
         >
         <h2>Vite</h2>
       </a>
-      <a href="https://code.visualstudio.com/">
+      <a
+        target="_blank"
+        href="https://code.visualstudio.com/"
+      >
         <img
           title="VSCode"
           alt="VSCode logo"
@@ -35,7 +44,10 @@
         >
         <h2>VSCode</h2>
       </a>
-      <a href="https://www.postgresql.org/">
+      <a
+        target="_blank"
+        href="https://www.postgresql.org/"
+      >
         <img
           title="PostgreSQL"
           alt="PostgreSQL logo"

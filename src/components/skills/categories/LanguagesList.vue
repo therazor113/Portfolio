@@ -4,7 +4,10 @@
       Langauges
     </h2>
     <div class="icons">
-      <a href="https://en.wikipedia.org/wiki/HTML5">
+      <a
+        target="_blank"
+        href="https://en.wikipedia.org/wiki/HTML5"
+      >
         <img
           title="HTML5"
           alt="HTML5 logo"
@@ -14,7 +17,10 @@
         >
         <h2>HTML5</h2>
       </a>
-      <a href="https://en.wikipedia.org/wiki/CSS">
+      <a
+        target="_blank"
+        href="https://en.wikipedia.org/wiki/CSS"
+      >
         <img
           title="CSS3"
           alt="CSS3 logo"
@@ -24,7 +30,10 @@
         >
         <h2>CSS3</h2>
       </a>
-      <a href="https://www.javascript.com/">
+      <a
+        target="_blank"
+        href="https://www.javascript.com/"
+      >
         <img
           title="JavaScript"
           alt="JS logo"
@@ -34,7 +43,10 @@
         >
         <h2>JavaScript</h2>
       </a>
-      <a href="https://nodejs.org/en/">
+      <a
+        target="_blank"
+        href="https://nodejs.org/en/"
+      >
         <img
           title="Nodejs"
           alt="Nodejs logo"
@@ -44,7 +56,10 @@
         >
         <h2>Nodejs</h2>
       </a>
-      <a href="https://sass-lang.com/">
+      <a
+        target="_blank"
+        href="https://sass-lang.com/"
+      >
         <img
           title="Sass"
           alt="Sass logo"

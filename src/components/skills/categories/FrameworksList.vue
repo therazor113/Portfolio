@@ -4,7 +4,10 @@
       Frameworks
     </h2>
     <div class="icons">
-      <a href="https://reactjs.org/">
+      <a
+        target="_blank"
+        href="https://reactjs.org/"
+      >
         <img
           title="React"
           alt="React logo"
@@ -14,7 +17,10 @@
         >
         <h2>React</h2>
       </a>
-      <a href="https://nextjs.org/">
+      <a
+        target="_blank"
+        href="https://nextjs.org/"
+      >
         <img
           class="next"
           title="Nextjs"
@@ -25,7 +31,10 @@
         >
         <h2>Nextjs</h2>
       </a>
-      <a href="https://vuejs.org/">
+      <a
+        target="_blank"
+        href="https://vuejs.org/"
+      >
         <img
           title="Vuejs"
           alt="Vue logo"
@@ -35,7 +44,10 @@
         >
         <h2>Vuejs</h2>
       </a>
-      <a href="https://expressjs.com/">
+      <a
+        target="_blank"
+        href="https://expressjs.com/"
+      >
         <img
           title="Expressjs"
           alt="Expressjs logo"
