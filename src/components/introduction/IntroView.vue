@@ -85,7 +85,7 @@ export default {
       </a>
       <a
         title="Resume"
-        href="/public/downloads/Resume.pdf"
+        href="/downloads/Resume.pdf"
         rel="nofollow"
         download
       >
