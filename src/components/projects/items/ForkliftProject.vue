@@ -11,7 +11,7 @@
       <img
         class="loginKeys"
         alt="Forklift App loginKeys"
-        src=""
+        src="@/assets/login-forklift.jpg"
         width="350"
         height="300"
       >
