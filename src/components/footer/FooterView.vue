@@ -36,6 +36,19 @@
           height="25"
         >
       </a>
+      <p>Hosted with:</p>
+      <a
+        target="_blank"
+        href="https://vercel.com/"
+      >
+        <img
+          title="Vercel"
+          alt="Vercel logo"
+          src="@/assets/Vercel-icon.svg"
+          width="25"
+          height="25"
+        >
+      </a>
     </div>
   </footer>
 </template>
@@ -53,6 +66,9 @@
     }
     img {
       margin-left: 5px;
+    }
+    p {
+      margin-left: 1rem;
     }
   }
 </style>
