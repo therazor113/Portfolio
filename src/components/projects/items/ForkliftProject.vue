@@ -120,6 +120,14 @@
     max-width: 490px;
     height: 500px;
     justify-content: center;
+    img {
+    margin-right: 0.6rem;
+    margin-top: 1rem;
+    transition: transform 0.2s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
   }
   .badge {
     top: 35px;
@@ -135,14 +143,6 @@
     top: 140px;
     left: 115px;
     z-index: 10;
-  }
-  img {
-    margin-right: 0.6rem;
-    margin-top: 1rem;
-    transition: transform 0.2s;
-    &:hover {
-      transform: scale(1.2);
-    }
   }
   .forkContainer {
     display: flex;
