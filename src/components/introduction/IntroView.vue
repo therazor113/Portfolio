@@ -3,7 +3,7 @@ export default {
   data () {
     return {
       sentence: '',
-      sentenceArr: ['Front-end Developer', 'JavaScript Tinkerer', 'Space Enjoyer', 'Gaming Enthusiast'],
+      sentenceArr: ['Full Stack Developer', 'JavaScript Tinkerer', 'Gaming Enthusiast', 'Space Enjoyer'],
       tempArr: [],
       count: 0
     }
