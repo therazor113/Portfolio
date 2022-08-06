@@ -21,10 +21,10 @@ import Other from './categories/OtherList.vue'
 
 <style lang="scss" scoped>
   h1 {
-      color: #eee;
-      text-decoration: underline;
-      margin-bottom: 1rem;
-    }
+    color: #eee;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+  }
   .skills {
     display: flex;
     flex-direction: column;
