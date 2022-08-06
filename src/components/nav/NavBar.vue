@@ -32,7 +32,7 @@
   nav {
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 4rem;
     z-index: 1100;
     position: fixed;
@@ -44,7 +44,7 @@
     div {
       display: flex;
       gap: 3rem;
-      margin-right: 2rem;
+      margin-right: 1rem;
       h2 {
         transition: color 0.2s, background-color 0.2s;
         border-radius: 10px;
