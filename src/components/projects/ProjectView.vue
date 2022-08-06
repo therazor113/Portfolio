@@ -4,12 +4,10 @@ import ForkliftProject from './items/ForkliftProject.vue'
 
 <template>
   <div class="ProjectsContainer">
-    <div>
-      <h1 class="title">
-        Projects
-      </h1>
-      <ForkliftProject />
-    </div>
+    <h1 class="title">
+      Projects
+    </h1>
+    <ForkliftProject />
   </div>
 </template>
 
@@ -25,11 +23,6 @@ import ForkliftProject from './items/ForkliftProject.vue'
       font-size: 40px;
       text-align: center;
       margin-bottom: 1rem;
-    }
-  }
-    @media only screen and (max-width: 450px) {
-    .ProjectsContainer {
-      margin-top: 35rem;
     }
   }
 </style>
