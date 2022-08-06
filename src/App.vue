@@ -50,7 +50,7 @@ import FooterView from '@/components/footer/FooterView.vue'
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 3rem;
-    height: 100vh;
+    height: fit-content;
     min-height: 800px;
   }
   .id {
