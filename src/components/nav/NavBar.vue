@@ -43,6 +43,7 @@
     padding: 0.8rem;
     div {
       display: flex;
+      overflow: hidden;
       gap: 3rem;
       margin-right: 1rem;
       h2 {
