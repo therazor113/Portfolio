@@ -11,6 +11,9 @@ npm install
 ```sh
 npm run dev
 ```
+
+### Lint with ESLint
+
 ```sh
-http://localhost:5173
+npm run lint
 ```
