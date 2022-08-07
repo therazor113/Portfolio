@@ -11,5 +11,6 @@ npm install
 ```sh
 npm run dev
 ```
-### Port
-[localhost](http://localhost:5173/)
+```sh
+http://localhost:5173
+```
