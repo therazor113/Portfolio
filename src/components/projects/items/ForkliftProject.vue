@@ -6,21 +6,21 @@
         alt="Forklift App Badge"
         src="@/assets/badge-forklift.jpg"
         width="350"
-        height="300"
+        height="325"
       >
       <img
         class="loginKeys"
         alt="Forklift App loginKeys"
         src="@/assets/login-forklift.jpg"
         width="350"
-        height="300"
+        height="325"
       >
       <img
         class="weights"
         alt="Forklift App Weights"
         src="@/assets/details-forklift.jpg"
         width="350"
-        height="300"
+        height="325"
       >
     </div>
     <div class="forkText">
