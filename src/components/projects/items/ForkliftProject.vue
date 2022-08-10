@@ -92,6 +92,19 @@
           <div>
             <a
               target="_blank"
+              href="https://forklift-next.vercel.app/"
+              class="link"
+            >
+              <img
+                title="Live"
+                alt="Live Link"
+                src="@/assets/Link-icon.svg"
+                width="45"
+                height="45"
+              >
+            </a>
+            <a
+              target="_blank"
               href="https://github.com/therazor113/Forklift-Next"
             >
               <img
