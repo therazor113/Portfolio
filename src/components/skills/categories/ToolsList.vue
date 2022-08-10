@@ -99,8 +99,6 @@
     }
   }
   a {
-    color: inherit;
-    text-decoration: none;
     h2 {
       display: none;
     }
