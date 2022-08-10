@@ -64,7 +64,7 @@
       display: flex;
       line-height: 25px;
     }
-    img {
+    a {
       margin-left: 5px;
     }
     p {
