@@ -4,7 +4,9 @@
 
 <template>
   <nav>
-    <a href="">
+    <a
+      href="/"
+    >
       <h1>&lt;/&gt;</h1>
     </a>
     <div>
@@ -25,10 +27,6 @@
 </template>
 
 <style lang='scss' scoped>
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
   nav {
     top: 0;
     left: 0;
