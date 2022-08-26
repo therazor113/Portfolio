@@ -20,22 +20,5 @@ import Other from './categories/OtherList.vue'
 </template>
 
 <style lang="scss" scoped>
-  h1 {
-    color: #eee;
-    text-decoration: underline;
-    margin-bottom: 1rem;
-  }
-  .skills {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    row-gap: 4rem;
-    div {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-  }
+  @import './styles.module.scss';
 </style>

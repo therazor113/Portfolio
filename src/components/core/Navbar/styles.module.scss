@@ -1,0 +1,38 @@
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  z-index: 1100;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background: #222222;
+  padding: 0.8rem;
+  div {
+    display: flex;
+    overflow: hidden;
+    gap: 3rem;
+    margin-right: 1rem;
+    h2 {
+      transition: color 0.2s, background-color 0.2s;
+      border-radius: 10px;
+      line-height: 14px;
+      text-align: center;
+      padding: 8px;
+      height: 2rem;
+      cursor: pointer;
+      &:hover {
+        transition: color 0.2s, background-color 0.2s;
+        color: #53dfa2;
+        background: rgba(80, 80, 80, 0.2);
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .contact {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.title {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+  width: 95%;
+  height: 400px;
+  button {
+    transition: background-color 0.2s;
+    border: none;
+    background-color: #181818;
+    color: #eee;
+    line-height: 35px;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    svg {
+      top: 5px;
+      transition: fill 0.2s;
+    }
+    &:hover {
+      background-color: rgba(80, 80, 80, 0.1);
+      svg {
+        fill: #3caa7d;
+      }
+    }
+  }
+}
+.info {
+  display: flex;
+  align-content: center;
+  gap: 1rem;
+  right: 7px;
+}
+.resumeDiv {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}

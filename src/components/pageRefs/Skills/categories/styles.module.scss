@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  text-align: center;
+  .title {
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  height: 80px;
+}
+a {
+  h2 {
+    display: none;
+  }
+  &:hover {
+    h2 {
+      position: absolute;
+      top: 115%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: block;
+    }
+  }
+}

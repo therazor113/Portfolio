@@ -1,0 +1,51 @@
+.introContainer {
+  text-align: center;
+  margin-top: 3rem;
+  width: 100%;
+  min-height: 92vh;
+  max-height: 1075px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 4rem;
+}
+.intro {
+  h1 {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+.typed {
+  color: rgb(60, 170, 125);
+  font-size: 25px;
+}
+.inputCursor {
+  display: inline-block;
+  width: 2px;
+  height: 20px;
+  background-color: rgb(60, 170, 125);
+  margin-left: 2px;
+}
+@keyframes blink {
+  0% {opacity: 1;}
+  40% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+.inputCursor {
+  animation: blink .6s linear infinite alternate;
+}
+a {
+  cursor: default;
+}
+svg {
+  margin: 1rem;
+  transition: transform 0.2s, fill 0.2s;
+  &:hover {
+    transform: scale(1.1);
+    fill: rgb(60, 170, 125);
+    cursor: pointer;
+  }
+}

@@ -1,12 +1,3 @@
-<template>
-  <a
-    :href="href"
-    @click.prevent="scroll"
-  >
-    <slot />
-  </a>
-</template>
-
 <script>
 export default {
   props: ['href'],
@@ -17,3 +8,12 @@ export default {
   }
 }
 </script>
+
+<template>
+  <a
+    :href="href"
+    @click.prevent="scroll"
+  >
+    <slot />
+  </a>
+</template>

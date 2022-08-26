@@ -20,18 +20,6 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
-  .title {
-    color: #fff;
-    font-size: 40px;
-    text-align: center;
-  }
-  .aboutContainer {
-    margin-bottom: 2rem;
-    .header {
-      color: #fff;
-      text-decoration: underline;
-      margin-bottom: 1rem;
-    }
-  }
+<style lang='scss' scoped>
+  @import './styles.module.scss';
 </style>

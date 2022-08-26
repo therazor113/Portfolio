@@ -54,20 +54,5 @@
 </template>
 
 <style lang='scss' scoped>
-  footer {
-    border-top: 1px solid black;
-    padding-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    gap: 2px;
-    div {
-      display: flex;
-      line-height: 25px;
-      gap: 3px;
-    }
-    p {
-      margin-left: 1rem;
-    }
-  }
+  @import './styles.module.scss';
 </style>
