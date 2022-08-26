@@ -1,0 +1,62 @@
+.projectContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &:hover {
+    .topImage {
+      left: 35px;
+    }
+    .middleImage {
+      left: 125px;
+    }
+    .bottomImage {
+      left: 215px;
+    }
+  }
+}
+.title {
+  font-weight: 500;
+  text-decoration: underline;
+}
+.ProjectDetails {
+  display: flex;
+  flex-direction: column;
+  max-width: 490px;
+  height: 500px;
+  justify-content: center;
+  div {
+    padding-top: 3px;
+  }
+  a {
+    margin-right: 8px;
+  }
+}
+.pics {
+  width: 500px;
+  height: 400px;
+  img {
+    transition: transform 0.2s, left 0.5s;
+    position: absolute;
+    outline: 2px solid black;
+    border-radius: 5px;
+    &:hover {
+      transform: scale(1.2);
+      z-index: 100;
+    }
+  }
+}
+.topImage {
+  top: 35px;
+  left: 15px;
+  z-index: 30;
+}
+.middleImage {
+  top: 90px;
+  left: 65px;
+  z-index: 20;
+}
+.bottomImage {
+  top: 140px;
+  left: 115px;
+  z-index: 10;
+}

@@ -1,6 +1,5 @@
 img {
   transition: transform 0.2s, filter 0.2s;
-  margin: 5px;
   &:hover:not(.Vercel, .Nextjs) {
     filter: drop-shadow(5px 5px 5px black);
     transform: scale(1.2);
