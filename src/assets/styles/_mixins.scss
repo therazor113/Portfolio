@@ -1,5 +1,19 @@
 @use 'variables' as *;
 
-@mixin inputCursor{
+@keyframes blink {
+  0% {opacity: 1;}
+  40% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
 
+@mixin inputCursor{
+  .inputCursor {
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: rgb(60, 170, 125);
+    margin-left: 2px;
+    animation: blink .6s linear infinite alternate;
+  }
 }
