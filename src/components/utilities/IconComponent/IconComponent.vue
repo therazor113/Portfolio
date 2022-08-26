@@ -13,7 +13,7 @@ export default {
       :class="title"
       :title="title"
       :alt="`${title} logo`"
-      :src="`./src/assets/icons/${title}-icon.svg`"
+      :src="`@/assets/icons/${title}-icon.svg`"
       :width="size"
       :height="size"
     >
