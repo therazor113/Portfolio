@@ -1,3 +1,7 @@
+@use '@/assets/styles/mixins' as *;
+
+@include inputCursor;
+
 .introContainer {
   text-align: center;
   margin-top: 3rem;
@@ -20,22 +24,6 @@
 .typed {
   color: rgb(60, 170, 125);
   font-size: 25px;
-}
-.inputCursor {
-  display: inline-block;
-  width: 2px;
-  height: 20px;
-  background-color: rgb(60, 170, 125);
-  margin-left: 2px;
-}
-@keyframes blink {
-  0% {opacity: 1;}
-  40% {opacity: 1;}
-  60% {opacity: 0;}
-  100% {opacity: 0;}
-}
-.inputCursor {
-  animation: blink .6s linear infinite alternate;
 }
 a {
   cursor: default;
