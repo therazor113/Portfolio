@@ -1,11 +1,11 @@
 <script setup>
-import NavBar from '@/components/nav/NavBar.vue'
-import IntroView from '@/components/introduction/IntroView.vue'
-import AboutView from '@/components/about/AboutView.vue'
-import ProjectView from '@/components/projects/ProjectView.vue'
-import SkillsView from '@/components/skills/SkillsView.vue'
-import ContactView from '@/components/contact/ContactView.vue'
-import FooterView from '@/components/footer/FooterView.vue'
+import NavBar from '@/components/core/Navbar/NavBar.vue'
+import IntroView from '@/components/pageRefs/Welcome/WelcomeView.vue'
+import AboutView from '@/components/pageRefs/About/AboutView.vue'
+import ProjectView from '@/components/pageRefs/Projects/ProjectView.vue'
+import SkillsView from '@/components/pageRefs/Skills/SkillsView.vue'
+import ContactView from '@/components/pageRefs/Contact/ContactView.vue'
+import FooterView from '@/components/core/Footer/FooterView.vue'
 </script>
 
 <template>
@@ -23,7 +23,6 @@ import FooterView from '@/components/footer/FooterView.vue'
     <div class="aboutMe">
       <AboutView />
       <SkillsView />
-      <div />
     </div>
     <div
       id="projects"
@@ -40,22 +39,5 @@ import FooterView from '@/components/footer/FooterView.vue'
 </template>
 
 <style lang='scss' scoped>
-  .container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .aboutMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 3rem;
-    height: fit-content;
-    min-height: 800px;
-  }
-  .id {
-    width: 100%;
-    bottom: 60px;
-    text-align: center;
-  }
+  @import './assets/styles/app.module.scss';
 </style>
