@@ -15,7 +15,7 @@
     </h2>
     <br>
     <h2>
-      Currently focused on full-stack development.
+      Currently focused on Full-Stack development.
     </h2>
   </div>
 </template>
