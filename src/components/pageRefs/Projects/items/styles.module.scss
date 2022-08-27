@@ -35,6 +35,8 @@
   }
 }
 .pics {
+  width: 500px;
+  height: 400px;
   img {
     transition: transform 0.2s, left 0.5s;
     position: absolute;
