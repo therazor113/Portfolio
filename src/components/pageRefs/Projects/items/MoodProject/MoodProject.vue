@@ -55,6 +55,11 @@
           href="https://nodejs.org/en/"
         />
         <Icon
+          title="JWT"
+          size="45"
+          href="https://sass-lang.com/"
+        />
+        <Icon
           title="Sass"
           size="45"
           href="https://sass-lang.com/"
