@@ -8,8 +8,8 @@ import MoodProject from './items/MoodProject/MoodProject.vue'
     <h1 class="title">
       Projects
     </h1>
-    <ForkliftProject />
     <MoodProject />
+    <ForkliftProject />
   </div>
 </template>
 
