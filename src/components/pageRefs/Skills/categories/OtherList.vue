@@ -12,13 +12,6 @@
         <h2>Vercel</h2>
       </Icon>
       <Icon
-        title="Vitejs"
-        size="65"
-        href="https://vitejs.dev/"
-      >
-        <h2>Vitejs</h2>
-      </Icon>
-      <Icon
         title="VSCode"
         size="65"
         href="https://code.visualstudio.com/"
@@ -31,6 +24,13 @@
         href="https://www.postgresql.org/"
       >
         <h2>PostgreSQL</h2>
+      </Icon>
+      <Icon
+        title="JWT"
+        size="65"
+        href="https://jwt.io/"
+      >
+        <h2>JWT</h2>
       </Icon>
     </div>
   </div>
