@@ -57,7 +57,7 @@
         <Icon
           title="JWT"
           size="45"
-          href="https://sass-lang.com/"
+          href="https://jwt.io/"
         />
         <Icon
           title="Sass"
