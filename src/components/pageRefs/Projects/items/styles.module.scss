@@ -1,7 +1,10 @@
+@use '@/assets/styles/variables' as * ;
+
 .projectContainer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 4rem;
   &:hover {
     .topImage {
       left: 35px;
@@ -21,8 +24,8 @@
 .ProjectDetails {
   display: flex;
   flex-direction: column;
-  max-width: 490px;
-  height: 500px;
+  width: 490px;
+  height: 445px;
   justify-content: center;
   div {
     padding-top: 3px;
@@ -32,31 +35,32 @@
   }
 }
 .pics {
-  width: 500px;
-  height: 400px;
   img {
     transition: transform 0.2s, left 0.5s;
     position: absolute;
-    outline: 2px solid black;
+    outline: 2px solid $background-light;
     border-radius: 5px;
     &:hover {
       transform: scale(1.2);
       z-index: 100;
     }
   }
+  .forkImg {
+    outline: 2px solid black;
+  }
 }
 .topImage {
-  top: 35px;
+  top: 0;
   left: 15px;
   z-index: 30;
 }
 .middleImage {
-  top: 90px;
+  top: 55px;
   left: 65px;
   z-index: 20;
 }
 .bottomImage {
-  top: 140px;
+  top: 105px;
   left: 115px;
   z-index: 10;
 }

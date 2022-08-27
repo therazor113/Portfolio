@@ -4,33 +4,32 @@
       <img
         class="topImage"
         alt="Forklift App Badge"
-        src="@/assets/images/badge-forklift.jpg"
-        width="350"
-        height="325"
+        src="@/assets/images/login-mood.jpg"
+        width="355"
+        height="340"
       >
       <img
         class="middleImage"
         alt="Forklift App loginKeys"
-        src="@/assets/images/login-forklift.jpg"
-        width="350"
-        height="325"
+        src="@/assets/images/create-mood.jpg"
+        width="355"
+        height="340"
       >
       <img
         class="bottomImage"
         alt="Forklift App Weights"
-        src="@/assets/images/details-forklift.jpg"
-        width="350"
-        height="325"
+        src="@/assets/images/charts-mood.jpg"
+        width="355"
+        height="340"
       >
     </div>
     <div class="ProjectDetails">
       <h2 class="title">
-        Forklift-Next
+        Mood-Next
       </h2>
       <br>
       <p>
-        Forklift-Next allows the user to edit and manage freight data such as location, dock position, trailer destination,
-        and various other freight related data using dynamic Api’s to retrieve and update information from the provided database.
+        Mood-Next is a journal tracking application
       </p>
       <br>
       <h2 class="title">
@@ -65,12 +64,12 @@
             <Icon
               title="Live"
               size="45"
-              href="https://forklift-next.vercel.app/"
+              href="https://mood-next.vercel.app/"
             />
             <Icon
               title="GitHub"
               size="45"
-              href="https://github.com/therazor113/Forklift-Next"
+              href="https://github.com/therazor113/Mood-Next"
             />
           </div>
         </div>

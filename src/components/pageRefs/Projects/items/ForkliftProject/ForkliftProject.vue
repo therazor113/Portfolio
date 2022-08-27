@@ -2,21 +2,21 @@
   <div class="projectContainer">
     <div class="pics">
       <img
-        class="topImage"
+        class="topImage forkImg"
         alt="Forklift App Badge"
         src="@/assets/images/badge-forklift.jpg"
         width="350"
         height="325"
       >
       <img
-        class="middleImage"
+        class="middleImage forkImg"
         alt="Forklift App loginKeys"
         src="@/assets/images/login-forklift.jpg"
         width="350"
         height="325"
       >
       <img
-        class="bottomImage"
+        class="bottomImage forkImg"
         alt="Forklift App Weights"
         src="@/assets/images/details-forklift.jpg"
         width="350"
@@ -30,7 +30,7 @@
       <br>
       <p>
         Forklift-Next allows the user to edit and manage freight data such as location, dock position, trailer destination,
-        and various other freight related data using dynamic Api’s to retrieve and update information from the provided database.
+        and various other freight related data. To achieve this, the application uses dynamic API’s to retrieve and update information from the provided database.
       </p>
       <br>
       <h2 class="title">
