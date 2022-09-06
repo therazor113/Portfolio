@@ -1,0 +1,43 @@
+@use '@/assets/styles/variables' as *;
+
+.navMenuButton {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  span {
+    transition: transform 0.2s;
+    width: 25px;
+    height: 4px;
+    border-radius: 1rem;
+    background-color: $gray-dull;
+  }
+}
+
+.navMenu {
+  position: absolute;
+  right: 0;
+  top: 4rem;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 0 0 0 1rem;
+  background-color: $background-light;
+  transition: transform 0.3s, opacity 0.3s;
+  transform-origin: top;
+  opacity: 0;
+  transform: rotateY(0);
+}
+
+.navLinks {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .navMenuButton, .navMenu {
+    display: none;
+  }
+}
