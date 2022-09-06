@@ -9,12 +9,12 @@
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
-  margin: 2rem;
-  width: 95%;
+  width: 100%;
   height: 400px;
   button {
     transition: background-color 0.2s;
     border: none;
+    white-space: nowrap;
     background-color: #181818;
     color: #eee;
     line-height: 35px;
@@ -39,7 +39,6 @@
   display: flex;
   align-content: center;
   gap: 1rem;
-  right: 7px;
 }
 .resumeDiv {
   margin-top: 1rem;
