@@ -1,0 +1,27 @@
+.navLinks {
+  display: flex;
+  overflow: hidden;
+  gap: 3rem;
+  margin-right: 1rem;
+  user-select: none;
+  h2 {
+    transition: color 0.2s, background-color 0.2s;
+    border-radius: 10px;
+    line-height: 14px;
+    text-align: center;
+    padding: 8px;
+    height: 2rem;
+    cursor: pointer;
+    &:hover {
+      transition: color 0.2s, background-color 0.2s;
+      color: #53dfa2;
+      background: rgba(80, 80, 80, 0.2);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+}

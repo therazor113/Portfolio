@@ -16,3 +16,7 @@
     </ScrollLink>
   </div>
 </template>
+
+<style lang='scss' scoped>
+  @import './styles.module.scss';
+</style>

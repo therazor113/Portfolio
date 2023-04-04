@@ -30,10 +30,14 @@
   transform-origin: top;
   opacity: 0;
   transform: rotateY(0);
-}
-
-.navLinks {
-  font-size: 20px;
+  .navLinks {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 1rem;
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
