@@ -29,8 +29,9 @@
       </h2>
       <br>
       <p>
-        Forklift-Next allows the user to edit and manage freight data such as location, dock position, trailer destination,
-        and various other freight related data. To achieve this, the application uses dynamic API’s to retrieve and update information from the provided database.
+        Forklift-Next allows a user to edit and manage freight data such as location,
+        dock position, trailer destination, and various other freight related data.
+        To achieve this, the application uses dynamic API’s to retrieve and update information from the provided database.
       </p>
       <br>
       <h2 class="title">
@@ -57,6 +58,20 @@
           size="45"
           href="https://sass-lang.com/"
         />
+        <div>
+          <Icon
+            title="PostgreSQL"
+            size="45"
+            href="https://www.postgresql.org/"
+          >
+          </Icon>
+          <Icon
+            title="Supabase"
+            size="45"
+            href="https://supabase.com/"
+          >
+          </Icon>
+        </div>
         <div>
           <h2 class="title">
             Links

@@ -29,7 +29,7 @@
       </h2>
       <br>
       <p>
-        Mood-Next allows the user to create an account,
+        Mood-Next allows a user to create an account,
         upload and manage daily, weekly, and monthly journals,
         and keep track of their progress utilizing the provided charts.
         The user's data is kept secure with the use of JWT’s, cookies, and password encryption.
@@ -64,6 +64,20 @@
           size="45"
           href="https://sass-lang.com/"
         />
+        <div>
+          <Icon
+            title="PostgreSQL"
+            size="45"
+            href="https://www.postgresql.org/"
+          >
+          </Icon>
+          <Icon
+            title="Supabase"
+            size="45"
+            href="https://supabase.com/"
+          >
+          </Icon>
+        </div>
         <div>
           <h2 class="title">
             Links
