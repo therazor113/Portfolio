@@ -5,13 +5,6 @@
     </h2>
     <div class="icons">
       <Icon
-        title="SQLite"
-        size="65"
-        href="https://www.sqlite.org/index.html"
-      >
-        <h2>SQLite</h2>
-      </Icon>
-      <Icon
         title="ESLint"
         size="65"
         href="https://eslint.org/"
@@ -24,6 +17,13 @@
         href="https://www.npmjs.com/"
       >
         <h2>NPM</h2>
+      </Icon>
+      <Icon
+        title="VSCode"
+        size="65"
+        href="https://code.visualstudio.com/"
+      >
+        <h2>VSCode</h2>
       </Icon>
       <Icon
         title="Git"

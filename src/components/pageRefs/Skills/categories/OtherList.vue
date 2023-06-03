@@ -12,18 +12,18 @@
         <h2>Vercel</h2>
       </Icon>
       <Icon
-        title="VSCode"
-        size="65"
-        href="https://code.visualstudio.com/"
-      >
-        <h2>VSCode</h2>
-      </Icon>
-      <Icon
         title="PostgreSQL"
         size="65"
         href="https://www.postgresql.org/"
       >
         <h2>PostgreSQL</h2>
+      </Icon>
+      <Icon
+        title="Supabase"
+        size="65"
+        href="https://supabase.com/"
+      >
+        <h2>Supabase</h2>
       </Icon>
       <Icon
         title="JWT"
