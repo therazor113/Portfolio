@@ -2,7 +2,7 @@
 
 My portfolio project, in which includes details about me, my skills, and projects
 
-Created with Vuejs, SCSS, JavaScript, Vite - Hosted on Vercel
+Created with Vuejs, JavaScript, SCSS, Vite - Hosted on Vercel
 
 ## Project Setup
 ```
