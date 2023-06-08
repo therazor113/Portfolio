@@ -1,19 +1,14 @@
-# portfolio-vue
+# Portfolio-vue
+
+My portfolio project, in which includes details about me, my skills, and projects
+
+Created with Vuejs, JavaScript, SCSS, Vite - Hosted on Vercel
 
 ## Project Setup
-
-```sh
+```
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+```
 npm run dev
 ```
-
-### Lint with ESLint
-
-```sh
-npm run lint
-```
+http://localhost:5173
