@@ -28,6 +28,8 @@
         Forklift-Next
       </h2>
       <br>
+      <i>*Styles are based on a forklift work application*</i>
+      <br>
       <p>
         Forklift-Next allows a user to edit and manage freight data such as location,
         dock position, trailer destination, and various other freight related data.
@@ -63,14 +65,12 @@
             title="PostgreSQL"
             size="45"
             href="https://www.postgresql.org/"
-          >
-          </Icon>
+          />
           <Icon
             title="Supabase"
             size="45"
             href="https://supabase.com/"
-          >
-          </Icon>
+          />
         </div>
         <div>
           <h2 class="title">
