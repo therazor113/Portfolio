@@ -28,7 +28,7 @@
         Forklift-Next
       </h2>
       <br>
-      <i>*Styles are based on a forklift work application*</i>
+      <i>*Styles are based on a legacy forklift application*</i>
       <br>
       <p>
         Forklift-Next allows a user to edit and manage freight data such as location,
